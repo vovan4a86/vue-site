@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import HeaderComponent from './components/HeaderComponent'
+import HeaderComponent from '@/components/HeaderComponent';
 import FooterComponent from "@/components/FooterComponent";
 
 export default {
@@ -30,5 +30,8 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+.router-link-exact-active {
+  color: red!important;
 }
 </style>

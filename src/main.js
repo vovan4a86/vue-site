@@ -1,8 +1,10 @@
-import Vue from 'vue/dist/vue'
+import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from 'vue-router'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.bundle'
+
+import "vue-toastification/dist/index.css";
 
 import Home from './components/Home'
 import Features from './components/Features'
@@ -23,7 +25,6 @@ const routes = [
 const router = new VueRouter({
   routes
 })
-
 
 
 new Vue({
